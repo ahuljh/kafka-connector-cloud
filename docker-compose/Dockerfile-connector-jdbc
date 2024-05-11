@@ -1,0 +1,3 @@
+FROM quay.io/debezium/connect:latest
+ENV KAFKA_CONNECT_JDBC_DIR=$KAFKA_CONNECT_PLUGINS_DIR/kafka-connect-jdbc
+USER kafka
